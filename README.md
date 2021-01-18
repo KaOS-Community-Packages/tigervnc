@@ -7,3 +7,8 @@ install with kcp:
 ```
 kcp -i tigervnc
 ```
+
+To setup the vncserver service, please follow the instructions included with the service file, i.e.
+```
+cat /usr/lib/systemd/system/vncserver\@.service
+```
