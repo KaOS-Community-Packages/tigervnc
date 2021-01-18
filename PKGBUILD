@@ -17,19 +17,9 @@ makedepends=('cmake' 'nasm' 'xorg-font-util' 'xorg-util-macros' 'bigreqsproto'
 optdepends=('mesa: for OpenGL functionality in Xvnc')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/TigerVNC/tigervnc/archive/v${pkgver}.tar.gz"
 	"ftp://ftp.freedesktop.org/pub/xorg/individual/xserver/xorg-server-${_xorgver}.tar.bz2"
-  #"https://github.com/TigerVNC/tigervnc/raw/master/media/icons/tigervnc_16.png"
-  #"https://github.com/TigerVNC/tigervnc/raw/master/media/icons/tigervnc_22.png"
-  #"https://github.com/TigerVNC/tigervnc/raw/master/media/icons/tigervnc_24.png"
-  #"https://github.com/TigerVNC/tigervnc/raw/master/media/icons/tigervnc_32.png"
-  #"https://github.com/TigerVNC/tigervnc/raw/master/media/icons/tigervnc_48.png"
 )
 md5sums=('07f5e217f288c515effb083896e65054'
          '8cf8bd1f33e3736bc8dd279b20a32399'
-         #'1f487c0a38fe45af721b6b83a2e12ace'
-         #'eb42881653d0214b5e1d0e7c3ffa4207'
-         #'96dad6438f76705e8f8a9a12921143ce'
-         #'40bb0c5cc7b14f0978e241d33aa581bf'
-         #'fd9e4af7c96b4bfae36e93cf556a2a1c'
          )
 
 prepare() {
