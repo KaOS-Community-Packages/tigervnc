@@ -1,5 +1,5 @@
 pkgname=tigervnc
-pkgver=1.11.0
+pkgver=1.12.0
 pkgrel=1
 _xorgver=1.20.10
 pkgdesc="Suite of VNC servers and clients. Based on the VNC 4 branch of TightVNC."
@@ -16,9 +16,9 @@ makedepends=('cmake' 'nasm' 'xorg-font-util' 'xorg-util-macros' 'bigreqsproto'
 	     'mesa' 'imagemagick')
 optdepends=('mesa: for OpenGL functionality in Xvnc')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/TigerVNC/tigervnc/archive/v${pkgver}.tar.gz"
-	"ftp://ftp.freedesktop.org/pub/xorg/individual/xserver/xorg-server-${_xorgver}.tar.bz2"
+	"https://www.x.org/pub/individual/xserver/xorg-server-${_xorgver}.tar.bz2"
 )
-md5sums=('07f5e217f288c515effb083896e65054'
+md5sums=('e92945f43654e2a120f2c9d8b3a9b869'
          '8cf8bd1f33e3736bc8dd279b20a32399'
          )
 
